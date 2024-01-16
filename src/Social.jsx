@@ -3,7 +3,7 @@ import { FaRegComment, FaRetweet, FaRegHeart, FaExternalLinkAlt } from 'react-ic
 
 const TweetCard = () => {
   return (
-    <div className=" items-start text-white rounded-lg p-4 border-y">
+    <div className=" items-start text-white rounded-lg p-4 border-y h-screen">
       <div className="flex items-center space-x-2 mb-2 ">
         <img className="src/photo/Profile-Photo.svg" src="src/photo/tweeter.svg" alt="CNN Logo" />
         

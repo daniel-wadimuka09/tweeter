@@ -1,7 +1,7 @@
 
 
 import './App.css'
-import Sidebar from './composant/Sidebar'
+import Sidebar from './Sidebar'
 import Baby from './Baby'
 import TweetBox from './ TweetBox'
 import TweetCard from './composant/TweetCard'
@@ -12,6 +12,7 @@ import Social from './Social'
 import Rechercher from './Rechercher'
 import Interface from './Interface'
 import Cardinterface from './Cardinterface'
+import UserProfil from './UserProfil'
 
 
 
@@ -20,11 +21,12 @@ function App() {
   return (
  <div className='flex  bg-black text-white '>
 
-    <div className="w-2/4 h-screen bg-black  ">
+    <div className="w-1/3 h-screen bg-black  ">
         <Sidebar/>
+        <UserProfil/>
     </div>
 
-    <div className='container border-x w-2/5  '>
+    <div className=' container border-x w-2/5  '>
       <Baby/>
       <TweetBox/>
       <TweetCard/>
