@@ -4,7 +4,8 @@ const TrendingList = () => {
   const trends = [
     { hashtag: '#SQUID', tweets: 2066 },
     { hashtag: '#Trending in Turkey', tweets: 2066 },
-    { hashtag: '#SQUID', tweets: 2066 }
+    { hashtag: '#SQUID', tweets: 2066 },
+    { hashtag: '#SQUID', tweets: 2061 }
   ];
 
   return (

@@ -2,9 +2,9 @@ import React from 'react';
 
 const WhoToFollow = () => {
   return (
-    <div className="bg-gray-800 p-4 rounded-lg">
+    <div className="bg-gray-800 p-4 rounded-lg ">
       <h2 className="text-white text-lg font-bold mb-4">Who to follow</h2>
-      <div className="flex items-center space-x-4 mb-4">
+      <div className="flex items-center space-x-4 mb-4 rounded-md ">
         <img src="src/photo/Tweet-Profile-Photo (1).svg" alt="New York Times" className="h-10 w-10 rounded-full" />
         <div>
           <p className="text-white font-semibold">The New York Times</p>
@@ -28,7 +28,7 @@ const WhoToFollow = () => {
         </div>
         <button className="bg-blue-500 text-white px-3 py-1 rounded-full">Follow</button>
       </div>
-      <p className='text-blue'>
+      <p className="text-blue-400">
         Show more
       </p>
     </div>

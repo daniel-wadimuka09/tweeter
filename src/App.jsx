@@ -18,13 +18,13 @@ import Cardinterface from './Cardinterface'
 function App() {
 
   return (
- <div className='flex bg-black text-white'>
+ <div className='flex  bg-black text-white '>
 
-    <div className="w-1/5 h-screen bg-black">
+    <div className="w-2/4 h-screen bg-black  ">
         <Sidebar/>
     </div>
 
-    <div className='container border-x    width: 50px;'>
+    <div className='container border-x w-2/5  '>
       <Baby/>
       <TweetBox/>
       <TweetCard/>
@@ -37,8 +37,9 @@ function App() {
       
     </div>
 
-    <div className="w-1/5 h-screen bg-black   width: 50px;">
-      <div className="flex flex-col">
+    <div className="w-2/4 h-screen bg-black ">
+         
+      <div className="grid gap-6 grid-cols-21" >
       <Rechercher/>
       <Interface/>
       <Cardinterface/>
