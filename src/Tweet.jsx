@@ -18,6 +18,7 @@ const tweetData = {
 function TweetCard() {
   return (
     <div className="flex items-start   shadow-lg rounded-lg overflow-hidden border-y">
+      
       <div className="px-4 py-2">
         <div className="flex items-center">
           <img className="h-12 w-12 rounded-full" src={tweetData.profileImage} alt="Profile" />

@@ -9,7 +9,9 @@ import Tweet from './Tweet'
 import Tweeter from './Tweeter'
 import SocialCard from './SocialCard'
 import Social from './Social'
-
+import Rechercher from './Rechercher'
+import Interface from './Interface'
+import Cardinterface from './Cardinterface'
 
 
 
@@ -22,7 +24,7 @@ function App() {
         <Sidebar/>
     </div>
 
-    <div className='container border-x '>
+    <div className='container border-x    width: 50px;'>
       <Baby/>
       <TweetBox/>
       <TweetCard/>
@@ -35,8 +37,13 @@ function App() {
       
     </div>
 
-    <div className="w-1/5 h-screen bg-black">
-      <h1></h1>
+    <div className="w-1/5 h-screen bg-black   width: 50px;">
+      <div className="flex flex-col">
+      <Rechercher/>
+      <Interface/>
+      <Cardinterface/>
+      </div>
+      
     </div>
  </div>
     
