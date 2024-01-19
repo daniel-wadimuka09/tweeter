@@ -9,7 +9,7 @@ const TweetBox = () => {
   };
 
   return (
-    <div className="flex items-start  text-white p-4 rounded border-y">
+    <div className="flex items-start  text-white  rounded border-y ">
       <div className="w-12 h-12 rounded-full overflow-hidden">
         <img src="src/photo/Profile-Photo.svg" alt="Avatar de l'utilisateur" />
       </div>
@@ -21,7 +21,7 @@ const TweetBox = () => {
           onChange={(e) => setTweetText(e.target.value)}
           className="w-full bg-transparent border-none outline-none text-white text-lg"
         />
-        <div className="flex items-center space-x-4 mt-2">
+        <div className="flex items-center space-x-2 ">
           <button className="text-blue-500 hover:text-blue-700">
             📷
           </button>

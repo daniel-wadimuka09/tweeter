@@ -9,12 +9,12 @@ const TrendingList = () => {
   ];
 
   return (
-    <div className="bg-gray-800 text-white p-4 rounded-lg">
+    <div className="bg-gray-800 text-white p-4 rounded-lg border-y">
       <h3 className="text-xl font-bold mb-4">Trending for you</h3>
       <ul>
         {trends.map((trend, index) => (
           <li key={index} className="mb-3">
-            <div className="flex justify-between">
+            <div className="flex flex-col space-y-4">
               <h4 className="text-md font-semibold">{trend.hashtag}</h4>
               <span className="text-sm">{trend.tweets} Tweets</span>
             </div>

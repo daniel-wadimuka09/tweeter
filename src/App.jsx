@@ -19,29 +19,26 @@ import UserProfil from './UserProfil'
 function App() {
 
   return (
- <div className='flex  bg-black text-white '>
+ <div className='flex  bg-black text-white py-8'>
 
-    <div className="w-1/3 h-screen bg-black  ">
+    <div className=" container  w-2/4 h-4/5 px-11 m-4 ">
         <Sidebar/>
         <UserProfil/>
     </div>
 
-    <div className=' container border-x w-2/5  '>
+    <div className=' container border-x  w-5/2 py-5 m-3 '>
       <Baby/>
       <TweetBox/>
       <TweetCard/>
       <Tweet/>
       <SocialCard/>
       <Tweeter/>
-      <Social/>
-      
-      
-      
+      <Social/> 
     </div>
 
-    <div className="w-2/4 h-screen bg-black ">
+    <div className="  py-8 ml-5   container w-3/4 " >
          
-      <div className="grid gap-6 grid-cols-21" >
+      <div className="grid gap-6 grid-cols-21  container w-3/5 border-y" >
       <Rechercher/>
       <Interface/>
       <Cardinterface/>
